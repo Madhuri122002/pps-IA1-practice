@@ -8,11 +8,11 @@ int input_n()
 }
 int sum_n(int n)
 {
-  int a[n],sum,i;
+  int a[n],sum=0,i;
   for(i=0;i<n;i++)
   a[i]=i;
   for(i=0;i<n;i++)
-  sum+=a[i];
+  sum=sum+a[i];
   return sum;
 }
 void output(int n,int sum)
