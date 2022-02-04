@@ -10,10 +10,10 @@ int cmp(int a,int b,int c)
   if(a>b&&a>c)
   return a;
   else
-  if(b>a&&b>c)
+  if(b>c)
   return b;
   else
-  if(c>a&&c>b)
+  if(c>b)
   return c;
 }
 void output(int a,int b,int c,int largest)
